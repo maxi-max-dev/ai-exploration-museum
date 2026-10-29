@@ -1,0 +1,640 @@
+[
+  {
+    "id": "H01",
+    "date": "1950",
+    "datePrecision": "year",
+    "title": "图灵与计算智能讨论",
+    "schools": [
+      "符号"
+    ],
+    "problem": "怎样让机器智能成为可讨论的问题？",
+    "background": "怎样让机器智能成为可讨论的问题？",
+    "breakthrough": "用文字交流的模仿游戏讨论可观察表现。",
+    "limits": "通过行为测试不证明机器具有意识。",
+    "influence": "为AI目标与评价标准留下争论。",
+    "chapterIds": [
+      "C01"
+    ],
+    "sourceIds": [
+      "S43",
+      "S44"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H02",
+    "date": "1955-08-31",
+    "datePrecision": "day",
+    "title": "Dartmouth 提案",
+    "schools": [
+      "符号",
+      "神经网络"
+    ],
+    "problem": "语言、抽象和学习能否由机器实现？",
+    "background": "语言、抽象和学习能否由机器实现？",
+    "breakthrough": "提案把多条研究路线聚在人工智能名称下，计划1956暑期研讨。",
+    "limits": "提案的乐观目标不是已经完成的成果。",
+    "influence": "形成共同研究议程；1955是提案日期。",
+    "chapterIds": [
+      "C01",
+      "C02"
+    ],
+    "sourceIds": [
+      "S07"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H03",
+    "date": "1958-07",
+    "datePrecision": "month",
+    "title": "感知机公开演示",
+    "schools": [
+      "神经网络",
+      "统计"
+    ],
+    "problem": "分类边界能否从例子调整？",
+    "background": "分类边界能否从例子调整？",
+    "breakthrough": "演示从输入样本调整识别表现。",
+    "limits": "线性分类器不能表示所有分类关系；生物类比有限。",
+    "influence": "把学习参数变成可实验的路线。",
+    "chapterIds": [
+      "C07"
+    ],
+    "sourceIds": [
+      "S38",
+      "S37"
+    ],
+    "relations": [
+      {
+        "target": "H06",
+        "type": "技术影响",
+        "explanation": "学习参数的路线发展；并非单线继承"
+      }
+    ]
+  },
+  {
+    "id": "H04",
+    "date": "1960s",
+    "datePrecision": "decade",
+    "title": "专家系统的兴起",
+    "schools": [
+      "符号"
+    ],
+    "problem": "如何把领域专家知识交给计算机？",
+    "background": "如何把领域专家知识交给计算机？",
+    "breakthrough": "知识表示与推理引擎分工，使规则参与专业任务。",
+    "limits": "获取维护知识昂贵，领域边界外覆盖不足。",
+    "influence": "规则系统持续进入诊断与业务流程。",
+    "chapterIds": [
+      "C02"
+    ],
+    "sourceIds": [
+      "S26",
+      "S33"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H05",
+    "date": "1970s–1990s",
+    "datePrecision": "period",
+    "title": "AI 寒冬：有争议的分期",
+    "schools": [
+      "符号",
+      "统计",
+      "神经网络"
+    ],
+    "problem": "承诺、投资与实际能力出现落差。",
+    "background": "承诺、投资与实际能力出现落差。",
+    "breakthrough": "这不是技术发明节点，而是检查研究叙事的节点。",
+    "limits": "不同地区路线并未同时停顿；口述参与者明确反对一刀切的寒冬概念。",
+    "influence": "提醒我们分开产业热度与持续研究，不能把后来方法画成从零重启。",
+    "chapterIds": [
+      "C01",
+      "C09"
+    ],
+    "sourceIds": [
+      "S26",
+      "S38"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H06",
+    "date": "1986",
+    "datePrecision": "year",
+    "title": "反向传播复兴",
+    "schools": [
+      "神经网络"
+    ],
+    "problem": "多层网络中每个参数该改多少？",
+    "background": "多层网络中每个参数该改多少？",
+    "breakthrough": "Rumelhart、Hinton、Williams发表学习表示的反向传播论文。",
+    "limits": "1986不是所有自动微分或链式法则的起点。",
+    "influence": "多层表示与端到端学习获得重要推动。",
+    "chapterIds": [
+      "C07",
+      "C08"
+    ],
+    "sourceIds": [
+      "S09",
+      "S31"
+    ],
+    "relations": [
+      {
+        "target": "H11",
+        "type": "前置概念",
+        "explanation": "梯度训练是卷积网络训练基础"
+      }
+    ]
+  },
+  {
+    "id": "H07",
+    "date": "1995-09",
+    "datePrecision": "month",
+    "title": "支持向量网络论文",
+    "schools": [
+      "统计"
+    ],
+    "problem": "有限样本怎样产生可泛化的分类器？",
+    "background": "有限样本怎样产生可泛化的分类器？",
+    "breakthrough": "Cortes与Vapnik把支持向量网络扩展到不可分训练数据，并用非线性特征空间构建分类边界。",
+    "limits": "性能依赖特征、数据与假设。",
+    "influence": "与神经网络并行，为评估和正则化提供重要视角。",
+    "chapterIds": [
+      "C04",
+      "C05",
+      "C09"
+    ],
+    "sourceIds": [
+      "S45",
+      "S37",
+      "S21"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H08",
+    "date": "1997-05",
+    "datePrecision": "month",
+    "title": "深蓝赢得国际象棋对抗赛",
+    "schools": [
+      "符号"
+    ],
+    "problem": "巨大棋树怎样在有限时间内搜索？",
+    "background": "巨大棋树怎样在有限时间内搜索？",
+    "breakthrough": "IBM系统以搜索、评估函数、专用硬件和棋类知识组合获胜。",
+    "limits": "棋类胜利不等于通用智能；也不是毫无知识的穷举。",
+    "influence": "展示搜索与领域工程的组合力量。",
+    "chapterIds": [
+      "C03",
+      "C13"
+    ],
+    "sourceIds": [
+      "S08"
+    ],
+    "relations": [
+      {
+        "target": "H15",
+        "type": "并行路线",
+        "explanation": "共享搜索问题，评估与学习方法不同"
+      }
+    ]
+  },
+  {
+    "id": "H09",
+    "date": "1997",
+    "datePrecision": "year",
+    "title": "LSTM",
+    "schools": [
+      "神经网络"
+    ],
+    "problem": "序列模型怎样保留较远的历史信息？",
+    "background": "序列模型怎样保留较远的历史信息？",
+    "breakthrough": "LSTM提出带门控的记忆结构。",
+    "limits": "仍有序列依赖与训练代价，不是无限记忆。",
+    "influence": "推动语音与文本序列建模。",
+    "chapterIds": [
+      "C11"
+    ],
+    "sourceIds": [
+      "S27",
+      "S32"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H10",
+    "date": "2006",
+    "datePrecision": "year",
+    "title": "深度信念网络逐层学习",
+    "schools": [
+      "神经网络",
+      "生成模型"
+    ],
+    "problem": "深层网络训练困难怎么办？",
+    "background": "深层网络训练困难怎么办？",
+    "breakthrough": "逐层学习可用于初始化深度信念网络，随后微调。",
+    "limits": "这是特定模型方法，不是今天所有深网必用步骤。",
+    "influence": "成为深度学习复兴的重要研究节点。",
+    "chapterIds": [
+      "C06",
+      "C07"
+    ],
+    "sourceIds": [
+      "S24"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H11",
+    "date": "2012",
+    "datePrecision": "year",
+    "title": "AlexNet 与 ImageNet",
+    "schools": [
+      "神经网络"
+    ],
+    "problem": "大规模图像分类能否直接学习表示？",
+    "background": "大规模图像分类能否直接学习表示？",
+    "breakthrough": "深卷积网络结合GPU训练和过拟合控制获得突出结果。",
+    "limits": "图像基准表现不等于真实环境鲁棒性。",
+    "influence": "加速深度视觉模型的采用。",
+    "chapterIds": [
+      "C10",
+      "C09"
+    ],
+    "sourceIds": [
+      "S25"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H12",
+    "date": "2013-12-19",
+    "datePrecision": "day",
+    "title": "DQN 预印本",
+    "schools": [
+      "强化学习",
+      "神经网络"
+    ],
+    "problem": "能否直接从游戏像素学控制？",
+    "background": "能否直接从游戏像素学控制？",
+    "breakthrough": "卷积网络与Q学习结合预测动作价值。",
+    "limits": "本节点是2013预印本，不把2015Nature成绩混进来。",
+    "influence": "展示表示学习与奖励学习的系统组合。",
+    "chapterIds": [
+      "C12"
+    ],
+    "sourceIds": [
+      "S10"
+    ],
+    "relations": [
+      {
+        "target": "H15",
+        "type": "系统组合",
+        "explanation": "神经网络与强化学习共同进入棋类系统"
+      }
+    ]
+  },
+  {
+    "id": "H13",
+    "date": "2013-12-20",
+    "datePrecision": "day",
+    "title": "VAE 预印本",
+    "schools": [
+      "生成模型",
+      "统计",
+      "神经网络"
+    ],
+    "problem": "隐变量生成模型如何高效训练？",
+    "background": "隐变量生成模型如何高效训练？",
+    "breakthrough": "变分下界与重参数化支持随机梯度训练。",
+    "limits": "近似后验与模型假设影响生成质量。",
+    "influence": "发展可学习潜在空间的生成路线。",
+    "chapterIds": [
+      "C21"
+    ],
+    "sourceIds": [
+      "S17"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H14",
+    "date": "2014-06-10",
+    "datePrecision": "day",
+    "title": "GAN 预印本",
+    "schools": [
+      "生成模型",
+      "神经网络"
+    ],
+    "problem": "没有显式重建目标能否学生成？",
+    "background": "没有显式重建目标能否学生成？",
+    "breakthrough": "生成器和判别器通过对抗过程训练。",
+    "limits": "训练可能不稳定；不保证覆盖全部模式。",
+    "influence": "形成与似然、变分路线并行的生成方法。",
+    "chapterIds": [
+      "C21"
+    ],
+    "sourceIds": [
+      "S11"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H15",
+    "date": "2016-03",
+    "datePrecision": "month",
+    "title": "AlphaGo 对李世石",
+    "schools": [
+      "强化学习",
+      "神经网络"
+    ],
+    "problem": "围棋搜索怎样得到可靠候选和评估？",
+    "background": "围棋搜索怎样得到可靠候选和评估？",
+    "breakthrough": "策略、价值网络与搜索组合，比赛以4:1获胜。",
+    "limits": "2016年1月论文主要描述更早版本，不能把后续Zero结构混用。",
+    "influence": "推动学习与搜索结合的研究和公众讨论。",
+    "chapterIds": [
+      "C13"
+    ],
+    "sourceIds": [
+      "S04",
+      "S42"
+    ],
+    "relations": [
+      {
+        "target": "H17",
+        "type": "技术影响",
+        "explanation": "Zero重新设计训练和搜索组合"
+      }
+    ]
+  },
+  {
+    "id": "H16",
+    "date": "2017-06-12",
+    "datePrecision": "day",
+    "title": "Transformer 预印本",
+    "schools": [
+      "神经网络",
+      "生成模型"
+    ],
+    "problem": "怎样更并行地处理序列依赖？",
+    "background": "怎样更并行地处理序列依赖？",
+    "breakthrough": "注意力结合逐位置前馈网络构成encoder-decoder。",
+    "limits": "注意力不是全部因果解释；长序列计算仍有成本。",
+    "influence": "成为多类语言和视觉模型的结构基础。",
+    "chapterIds": [
+      "C15",
+      "C16"
+    ],
+    "sourceIds": [
+      "S01"
+    ],
+    "relations": [
+      {
+        "target": "H19",
+        "type": "技术影响",
+        "explanation": "Transformer结构用于双向预训练"
+      },
+      {
+        "target": "H21",
+        "type": "前置概念",
+        "explanation": "注意力结构支持语言建模"
+      }
+    ]
+  },
+  {
+    "id": "H17",
+    "date": "2017-10-18",
+    "datePrecision": "day",
+    "title": "AlphaGo Zero",
+    "schools": [
+      "强化学习",
+      "神经网络"
+    ],
+    "problem": "没有人类棋谱能否学围棋？",
+    "background": "没有人类棋谱能否学围棋？",
+    "breakthrough": "自我对弈、单个策略价值网络与搜索共同改进，不用rollout。",
+    "limits": "无棋谱不等于无人类设计或无需游戏规则。",
+    "influence": "为更一般的棋类学习方法提供基础。",
+    "chapterIds": [
+      "C13"
+    ],
+    "sourceIds": [
+      "S05"
+    ],
+    "relations": [
+      {
+        "target": "H18",
+        "type": "技术影响",
+        "explanation": "从围棋方案推广算法"
+      }
+    ]
+  },
+  {
+    "id": "H18",
+    "date": "2017-12-05",
+    "datePrecision": "day",
+    "title": "AlphaZero 预印本",
+    "schools": [
+      "强化学习",
+      "神经网络"
+    ],
+    "problem": "同一算法能否用于不同棋类？",
+    "background": "同一算法能否用于不同棋类？",
+    "breakthrough": "将自我对弈算法应用于国际象棋、将棋和围棋。",
+    "limits": "分别训练的棋类系统，不是一个模型自动掌握一切任务。",
+    "influence": "展示算法跨任务复用。",
+    "chapterIds": [
+      "C13",
+      "C24"
+    ],
+    "sourceIds": [
+      "S06"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H19",
+    "date": "2018-10-11",
+    "datePrecision": "day",
+    "title": "BERT 预印本",
+    "schools": [
+      "神经网络"
+    ],
+    "problem": "如何利用文本左右两侧上下文？",
+    "background": "如何利用文本左右两侧上下文？",
+    "breakthrough": "双向Transformer预训练后迁移到下游任务。",
+    "limits": "不是直接等同于自回归聊天模型。",
+    "influence": "拓展预训练语言表示的使用。",
+    "chapterIds": [
+      "C14",
+      "C16",
+      "C17"
+    ],
+    "sourceIds": [
+      "S14"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H20",
+    "date": "2020-05-22",
+    "datePrecision": "day",
+    "title": "RAG 预印本",
+    "schools": [
+      "生成模型",
+      "统计"
+    ],
+    "problem": "模型如何使用可检索的外部知识？",
+    "background": "模型如何使用可检索的外部知识？",
+    "breakthrough": "参数模型与文档索引组合进行生成。",
+    "limits": "检索资料仍可能错误；原论文也训练模型，不代表所有系统必须微调。",
+    "influence": "带动知识问答中的检索与生成组合。",
+    "chapterIds": [
+      "C22"
+    ],
+    "sourceIds": [
+      "S13"
+    ],
+    "relations": [
+      {
+        "target": "H24",
+        "type": "并行路线",
+        "explanation": "外部检索与对话训练解决不同问题"
+      }
+    ]
+  },
+  {
+    "id": "H21",
+    "date": "2020-05-28",
+    "datePrecision": "day",
+    "title": "GPT-3 与上下文学习",
+    "schools": [
+      "神经网络",
+      "生成模型"
+    ],
+    "problem": "仅在提示中展示例子会怎样？",
+    "background": "仅在提示中展示例子会怎样？",
+    "breakthrough": "论文评估不做任务梯度更新的少样本学习。",
+    "limits": "训练污染、样本选择与任务差异影响解释。",
+    "influence": "扩大对提示设计与大规模预训练的关注。",
+    "chapterIds": [
+      "C17",
+      "C19"
+    ],
+    "sourceIds": [
+      "S15"
+    ],
+    "relations": [
+      {
+        "target": "H24",
+        "type": "系统组合",
+        "explanation": "预训练与后训练及产品交互结合"
+      }
+    ]
+  },
+  {
+    "id": "H22",
+    "date": "2020-06-19",
+    "datePrecision": "day",
+    "title": "DDPM 预印本",
+    "schools": [
+      "生成模型"
+    ],
+    "problem": "怎样把噪声变成符合数据分布的样本？",
+    "background": "怎样把噪声变成符合数据分布的样本？",
+    "breakthrough": "训练去噪过程并逐步生成图像。",
+    "limits": "不是把一张被隐藏的原图从随机噪声里找回来。",
+    "influence": "扩散成为重要图像生成路线。",
+    "chapterIds": [
+      "C21"
+    ],
+    "sourceIds": [
+      "S12"
+    ],
+    "relations": [
+      {
+        "target": "H23",
+        "type": "并行路线",
+        "explanation": "生成路线与跨模态表示可组合但并非同一技术"
+      }
+    ]
+  },
+  {
+    "id": "H23",
+    "date": "2021-02-26",
+    "datePrecision": "day",
+    "title": "CLIP 预印本",
+    "schools": [
+      "神经网络",
+      "生成模型"
+    ],
+    "problem": "图像和文字如何进入共同表示空间？",
+    "background": "图像和文字如何进入共同表示空间？",
+    "breakthrough": "用图文配对的自然语言监督学习视觉表示。",
+    "limits": "零样本表现依赖提示与数据，不是无数据学习。",
+    "influence": "推动多模态表示与组合系统。",
+    "chapterIds": [
+      "C21"
+    ],
+    "sourceIds": [
+      "S28"
+    ],
+    "relations": []
+  },
+  {
+    "id": "H24",
+    "date": "2022-11-30",
+    "datePrecision": "day",
+    "title": "ChatGPT 研究预览",
+    "schools": [
+      "生成模型"
+    ],
+    "problem": "对话交互怎样变得可直接使用？",
+    "background": "对话交互怎样变得可直接使用？",
+    "breakthrough": "指令和偏好后训练结合对话产品界面向公众开放。",
+    "limits": "公开发布不等于已证明事实可靠；官方列出幻觉等限制。",
+    "influence": "推动对话模型进入大众工作流。",
+    "chapterIds": [
+      "C18",
+      "C19",
+      "C22"
+    ],
+    "sourceIds": [
+      "S29"
+    ],
+    "relations": [
+      {
+        "target": "H25",
+        "type": "技术影响",
+        "explanation": "语言系统增加推理预算维度"
+      }
+    ]
+  },
+  {
+    "id": "H25",
+    "date": "2024-09-12",
+    "datePrecision": "day",
+    "title": "o1 与推理时计算",
+    "schools": [
+      "生成模型",
+      "强化学习"
+    ],
+    "problem": "更多答题时计算怎样影响表现？",
+    "background": "更多答题时计算怎样影响表现？",
+    "breakthrough": "官方发布强调训练计算与推理计算两种扩展维度。",
+    "limits": "厂商基准自报；采样次数和预算不同的分数不可直接比较。",
+    "influence": "让系统预算成为模型比较的重要条件。",
+    "chapterIds": [
+      "C19",
+      "C23"
+    ],
+    "sourceIds": [
+      "S30"
+    ],
+    "relations": []
+  }
+]

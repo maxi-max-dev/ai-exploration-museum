@@ -1,0 +1,491 @@
+[
+  {
+    "id": "gpt-sol",
+    "family": "OpenAI GPT/推理模型",
+    "version": "gpt-6.1-sol",
+    "releaseDate": "2026-09-29",
+    "checkedAt": "2026-10-28",
+    "sourceIds": [
+      "M01",
+      "M02"
+    ],
+    "fields": {
+      "modalities": {
+        "value": "文本、图像输入；文本输出；不原生输出音频或视频。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "已核验官方披露"
+      },
+      "weightsLicense": {
+        "value": "本次所查页面提供托管API；未提供可下载权重或开放权重许可。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "资料范围内未披露"
+      },
+      "deployment": {
+        "value": "OpenAI API；工具调用需要 Responses API。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "已核验官方披露"
+      },
+      "architecture": {
+        "value": "具体层数、总/激活参数、稠密或MoE：未知。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "未知"
+      },
+      "context": {
+        "value": "1,050,000 token 上下文；最大输出128,000。长度上限不是长文理解正确率。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "已核验官方披露"
+      },
+      "reasoningTools": {
+        "value": "支持low至max推理档位、函数调用、搜索、计算机使用；应用负责工具执行与验证。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "已核验官方披露"
+      },
+      "tasks": {
+        "value": "可列为编码、视觉输入与工具工作流的候选，需同任务测试。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "条件式判断"
+      },
+      "limits": {
+        "value": "无none推理档；当前任务未实测准确率、延迟或费用。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "已核验官方披露"
+      },
+      "costSpeed": {
+        "value": "官方有按token和服务档计价；本表不复制动态价或给统一速度排名。",
+        "sourceId": "M01",
+        "checkedAt": "2026-10-28",
+        "version": "gpt-6.1-sol",
+        "status": "已核验官方披露"
+      }
+    },
+    "unknowns": [
+      "架构参数",
+      "独立同条件评测"
+    ],
+    "sampleNote": "具名教学比较样本；不代表本家族最新或最强版本。"
+  },
+  {
+    "id": "claude-fable51",
+    "family": "Anthropic Claude",
+    "version": "claude-fable-5-1",
+    "releaseDate": "2026-09-01",
+    "checkedAt": "2026-10-28",
+    "sourceIds": [
+      "M15",
+      "M04"
+    ],
+    "fields": {
+      "modalities": {
+        "value": "文本、图像输入；文本输出。",
+        "sourceId": "M15",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "已核验官方披露"
+      },
+      "weightsLicense": {
+        "value": "所查型号页列出托管平台；未提供下载权重或开放权重许可。",
+        "sourceId": "M15",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "资料范围内未披露"
+      },
+      "deployment": {
+        "value": "Claude API、Bedrock、Google Cloud、Foundry等；平台授权需单独核对。",
+        "sourceId": "M15",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "已核验官方披露"
+      },
+      "architecture": {
+        "value": "层数、参数量与稠密/MoE结构未知。",
+        "sourceId": "M15",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "未知"
+      },
+      "context": {
+        "value": "1M token上下文，最大输出128K；输入、输出和思考共占窗口。",
+        "sourceId": "M04",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "已核验官方披露"
+      },
+      "reasoningTools": {
+        "value": "自适应思考常开，支持工具工作流；强制工具调用会报错，是相对Fable5的破坏性变化。",
+        "sourceId": "M15",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "已核验官方披露"
+      },
+      "tasks": {
+        "value": "可作为长流程编码、研究和文档工作的候选；应先测自己的任务集。",
+        "sourceId": "M15",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "条件式判断"
+      },
+      "limits": {
+        "value": "迁移时需处理工具选择、思考块及历史编辑变化；官方性能描述不等于独立评测。",
+        "sourceId": "M15",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "已核验官方披露"
+      },
+      "costSpeed": {
+        "value": "官方列有token价格与相对延迟；本表未做跨家族同条件速度测试。",
+        "sourceId": "M15",
+        "checkedAt": "2026-10-28",
+        "version": "claude-fable-5-1",
+        "status": "已核验官方披露"
+      }
+    },
+    "unknowns": [
+      "参数与结构",
+      "本任务成功率"
+    ],
+    "sampleNote": "本次官方页面实际核验的具名版本；不作跨家族总排名。"
+  },
+  {
+    "id": "gemini-argon",
+    "family": "Google Gemini",
+    "version": "gemini-4-argon",
+    "releaseDate": "2026-10-13",
+    "checkedAt": "2026-10-28",
+    "sourceIds": [
+      "M16",
+      "M17"
+    ],
+    "fields": {
+      "modalities": {
+        "value": "文本、图像、视频、音频、PDF输入；文本输出。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "已核验官方披露"
+      },
+      "weightsLicense": {
+        "value": "所查型号页提供托管API，未提供开放权重。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "资料范围内未披露"
+      },
+      "deployment": {
+        "value": "Gemini API与Google AI Studio；实际账号权限未测试。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "已核验官方披露"
+      },
+      "architecture": {
+        "value": "所查型号页未披露层数、参数量、稠密或MoE细节。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "未知"
+      },
+      "context": {
+        "value": "统一输入/输出窗口1,048,576 token；同步默认最大输出65,536，long decode最多到1,048,576但仍受统一窗口约束。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "已核验官方披露"
+      },
+      "reasoningTools": {
+        "value": "low/medium/high思考；函数调用、代码执行、搜索；computer use为Preview。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "已核验官方披露"
+      },
+      "tasks": {
+        "value": "视频/音频分析和多步推理任务的候选；需核对数据处理要求并测目标内容。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "条件式判断"
+      },
+      "limits": {
+        "value": "不支持原生音频/图像生成或Live API；仅隐式缓存，不支持显式缓存。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "已核验官方披露"
+      },
+      "costSpeed": {
+        "value": "本次未核具体价格或同条件延迟；不作便宜/更快排名。",
+        "sourceId": "M16",
+        "checkedAt": "2026-10-28",
+        "version": "gemini-4-argon",
+        "status": "未知"
+      }
+    },
+    "unknowns": [
+      "结构参数",
+      "真实任务延迟",
+      "账号可用性"
+    ],
+    "sampleNote": "本次官方页面实际核验的具名版本；不作跨家族总排名。"
+  },
+  {
+    "id": "llama-scout",
+    "family": "Meta Llama",
+    "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "releaseDate": "2025-04-05",
+    "checkedAt": "2026-10-28",
+    "sourceIds": [
+      "M07",
+      "M08"
+    ],
+    "fields": {
+      "modalities": {
+        "value": "多语言文本、图像输入；文本/代码输出。",
+        "sourceId": "M07",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "已核验官方披露"
+      },
+      "weightsLicense": {
+        "value": "开放权重，自定义Llama4 Community License；须遵守许可与使用政策，不等同无条件开源。",
+        "sourceId": "M08",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "已核验官方披露"
+      },
+      "deployment": {
+        "value": "可自部署；模型卡有Transformers/vLLM示例；可运行不代表本机内存足够。",
+        "sourceId": "M07",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "已核验官方披露"
+      },
+      "architecture": {
+        "value": "自回归MoE与早期多模态融合；109B总参数、17B激活、16专家。",
+        "sourceId": "M07",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "已核验官方披露"
+      },
+      "context": {
+        "value": "官方模型卡标10M token；实际服务/硬件可能设更低上限，本次未跑满窗口。",
+        "sourceId": "M07",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "已核验官方披露"
+      },
+      "reasoningTools": {
+        "value": "指令微调用于对话/视觉推理；本次未核实统一工具协议支持，不承诺即插即用。",
+        "sourceId": "M07",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "部分核验"
+      },
+      "tasks": {
+        "value": "需要自部署和图像理解时的候选；先核对许可、硬件和语言需求。",
+        "sourceId": "M07",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "条件式判断"
+      },
+      "limits": {
+        "value": "官方支持12种语言清单不含中文；图像理解测试到5张输入图，更多需自测。",
+        "sourceId": "M07",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "已核验官方披露"
+      },
+      "costSpeed": {
+        "value": "自部署成本依赖硬件、量化和并发；无本次同条件速度证据。",
+        "sourceId": "M07",
+        "checkedAt": "2026-10-28",
+        "version": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "status": "未实测"
+      }
+    },
+    "unknowns": [
+      "本项目硬件性能",
+      "工具协议一致性"
+    ],
+    "sampleNote": "具名教学比较样本；不代表本家族最新或最强版本。"
+  },
+  {
+    "id": "qwen3",
+    "family": "Qwen",
+    "version": "Qwen/Qwen3-235B-A22B",
+    "releaseDate": "2025-04-29",
+    "checkedAt": "2026-10-28",
+    "sourceIds": [
+      "M09",
+      "M10",
+      "M11"
+    ],
+    "fields": {
+      "modalities": {
+        "value": "文本输入与文本输出；此具名版本不是Qwen-VL。",
+        "sourceId": "M09",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "已核验官方披露"
+      },
+      "weightsLicense": {
+        "value": "开放权重，Apache2.0许可。",
+        "sourceId": "M10",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "已核验官方披露"
+      },
+      "deployment": {
+        "value": "可用SGLang/vLLM等自部署，需匹配版本、模板和足够硬件。",
+        "sourceId": "M09",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "已核验官方披露"
+      },
+      "architecture": {
+        "value": "MoE，235B总参数/22B激活；128专家、每token激活8个；94层。",
+        "sourceId": "M09",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "已核验官方披露"
+      },
+      "context": {
+        "value": "原生32,768；配置YaRN可到131,072。不能无条件称原生128K。",
+        "sourceId": "M09",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "已核验官方披露"
+      },
+      "reasoningTools": {
+        "value": "同一检查点支持enable_thinking切换；工具应用需另行模板/解析器适配。",
+        "sourceId": "M09",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "已核验官方披露"
+      },
+      "tasks": {
+        "value": "需开放权重、可控制推理模式的文本工作流候选；以本地任务评估。",
+        "sourceId": "M09",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "条件式判断"
+      },
+      "limits": {
+        "value": "此处是2025年4月原版，勿混入Instruct-2507规格；静态YaRN可能影响短文本。",
+        "sourceId": "M11",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "已核验官方披露"
+      },
+      "costSpeed": {
+        "value": "自部署速度依赖硬件、精度与批量；22B激活不代表只需22B权重内存。",
+        "sourceId": "M09",
+        "checkedAt": "2026-10-28",
+        "version": "Qwen/Qwen3-235B-A22B",
+        "status": "机制推论，未实测"
+      }
+    },
+    "unknowns": [
+      "目标硬件吞吐",
+      "工具可靠性"
+    ],
+    "sampleNote": "具名教学比较样本；不代表本家族最新或最强版本。"
+  },
+  {
+    "id": "deepseek-flash41",
+    "family": "DeepSeek",
+    "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+    "releaseDate": "2026-10-17",
+    "checkedAt": "2026-10-28",
+    "sourceIds": [
+      "M18",
+      "M14"
+    ],
+    "fields": {
+      "modalities": {
+        "value": "文本与视觉输入；文本输出。不能把V4-Pro不支持视觉套用到此版本。",
+        "sourceId": "M18",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "已核验官方披露"
+      },
+      "weightsLicense": {
+        "value": "本次所查API资料未确认此具名版本是否发布权重及对应许可；未知，不能套用V3.2的MIT。",
+        "sourceId": "M18",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "未知"
+      },
+      "deployment": {
+        "value": "DeepSeek API，调用名deepseek-flash；名称可滚动，核验时映射V4.1-Flash-1017。",
+        "sourceId": "M18",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "已核验官方披露"
+      },
+      "architecture": {
+        "value": "官方更新说明为新架构家族；参数量与具体层结构本次未知，不移植V4-Pro参数。",
+        "sourceId": "M14",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "未知"
+      },
+      "context": {
+        "value": "官方表列1M上下文、最大输出384K；不是每次一定生成384K。",
+        "sourceId": "M18",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "已核验官方披露"
+      },
+      "reasoningTools": {
+        "value": "支持思考与非思考、JSON输出、工具调用、Responses与Anthropic接口。",
+        "sourceId": "M18",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "已核验官方披露"
+      },
+      "tasks": {
+        "value": "视觉输入与工具工作流候选；先验证接口兼容性和同预算完成率。",
+        "sourceId": "M18",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "条件式判断"
+      },
+      "limits": {
+        "value": "旧deepseek-v4-flash等名称会路由到新版本，不适合作固定复现标识；没有本次独立能力验证。",
+        "sourceId": "M18",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "已核验官方披露"
+      },
+      "costSpeed": {
+        "value": "官方计价有缓存与峰谷条件；本表不复制动态价、不把厂商跑分当独立速度实测。",
+        "sourceId": "M18",
+        "checkedAt": "2026-10-28",
+        "version": "DeepSeek-V4.1-Flash-1017 (API: deepseek-flash)",
+        "status": "已核验官方披露"
+      }
+    },
+    "unknowns": [
+      "开放权重及许可",
+      "架构参数",
+      "独立同条件质量/速度"
+    ],
+    "sampleNote": "本次官方页面实际核验的具名版本；不作跨家族总排名。"
+  }
+]
